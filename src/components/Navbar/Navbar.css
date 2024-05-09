@@ -1,0 +1,28 @@
+.Nav {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  height: 105px;
+}
+
+.NavLink {
+  color: #333;
+  font-size: 25px;
+  padding: 0 35px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.NavLink.active {
+  color: #da2700;
+}
+
+.NavLogo {
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
